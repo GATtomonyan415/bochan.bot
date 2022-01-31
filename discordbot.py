@@ -18,7 +18,8 @@ async def on_ready():
     print(bot.user.id)  # ID
     print(discord.__version__)  # discord.pyのバージョン
     print('------')
-    await bot.change_presence(activity=discord.Game(name="b!help この川、・・・深いッ！！"))
+    await bot.change_presence(activity=discord.Game(name=f"TEST{len(bot.guilds)}"))
+
     
 @bot.command()
 async def ping(ctx):
