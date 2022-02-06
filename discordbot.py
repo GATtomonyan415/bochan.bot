@@ -1,4 +1,5 @@
 from os import getenv
+import random
 import traceback
 from discord.ext import commands
 bot = commands.Bot(command_prefix="b!",help_command=None)
