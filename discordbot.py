@@ -10,6 +10,7 @@ import requests
 bot = commands.Bot(command_prefix = "b!")
 buttons = ButtonsClient(bot)
 
+
 @bot.event
 async def on_ready():
 	print("準備完了")
