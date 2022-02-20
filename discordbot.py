@@ -1,9 +1,8 @@
 from discord.ext import commands
 from os import getenv
 import traceback
-import random
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='b!')
 
 
 @bot.event
