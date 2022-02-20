@@ -3,6 +3,7 @@ from os import getenv
 import traceback
 from discord_buttons_plugin import *
 buttons = ButtonsClient(bot)
+import requests
 
 bot = commands.Bot(command_prefix='b!')
 
